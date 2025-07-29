@@ -9,8 +9,7 @@ namespace WebApi
     {
         static async Task Main(string[] args)
         {
-            var tcmbService = new TcmbService();
-            tcmbService.GetAllCurrenciesAsync();
+            // var tcmbService = new TcmbService();
 
             // Currency usd = await tcmbService.GetCurrencyAsync("USD");
             // Currency eur = await tcmbService.GetCurrencyAsync("EUR");
@@ -24,6 +23,12 @@ namespace WebApi
             // {
             //     Console.WriteLine($"EUR Alış: {eur.ForexBuying}, Satış: {eur.ForexSelling}");
             // }
+
+            var tcmbService = new TcmbService();
+            var currencies = await tcmbService.GetAllCurrenciesAsync();
+            Console.WriteLine($"Currency list length: {currencies.Count}");
+
+
 
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();

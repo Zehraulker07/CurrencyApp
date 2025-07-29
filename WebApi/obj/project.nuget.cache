@@ -1,11 +1,286 @@
 {
   "version": 2,
-  "dgSpecHash": "16SWngtJHz4=",
+  "dgSpecHash": "UV8dERWrFOQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zehra.ulker\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zehra.ulker\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
-    "C:\\Users\\zehra.ulker\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\zehra\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework\\7.0.0-beta4\\entityframework.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.commands\\7.0.0-beta4\\entityframework.commands.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.core\\7.0.0-beta4\\entityframework.core.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.relational\\7.0.0-beta4\\entityframework.relational.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.relational.design\\7.0.0-beta4\\entityframework.relational.design.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.sqlserver\\7.0.0-beta4\\entityframework.sqlserver.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\entityframework.sqlserver.design\\7.0.0-beta4\\entityframework.sqlserver.design.7.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\ix-async\\1.2.3\\ix-async.1.2.3.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.5\\microsoft.entityframeworkcore.design.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.5\\microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.5\\microsoft.entityframeworkcore.sqlserver.8.0.5.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.0\\microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.caching.interfaces\\1.0.0-beta4\\microsoft.framework.caching.interfaces.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.caching.memory\\1.0.0-beta4\\microsoft.framework.caching.memory.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.configurationmodel\\1.0.0-beta4\\microsoft.framework.configurationmodel.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.configurationmodel.interfaces\\1.0.0-beta4\\microsoft.framework.configurationmodel.interfaces.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.dependencyinjection\\1.0.0-beta4\\microsoft.framework.dependencyinjection.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.dependencyinjection.interfaces\\1.0.0-beta4\\microsoft.framework.dependencyinjection.interfaces.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.logging\\1.0.0-beta4\\microsoft.framework.logging.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.logging.interfaces\\1.0.0-beta4\\microsoft.framework.logging.interfaces.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.framework.optionsmodel\\1.0.0-beta4\\microsoft.framework.optionsmodel.1.0.0-beta4.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.35.0\\microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.logging\\6.35.0\\microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\remotion.linq\\2.0.0-alpha-002\\remotion.linq.2.0.0-alpha-002.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition.attributedmodel\\6.0.0\\system.composition.attributedmodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition.convention\\6.0.0\\system.composition.convention.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.6\\microsoft.netcore.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.6\\microsoft.windowsdesktop.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.6\\microsoft.aspnetcore.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.6\\microsoft.netcore.app.host.win-x64.9.0.6.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.Commands 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.Commands",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.Core 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.Core",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.Relational 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.Relational",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.Relational.Design 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.Relational.Design",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.SqlServer 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.SqlServer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework.SqlServer.Design 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "EntityFramework.SqlServer.Design",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Ix-Async 1.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Ix-Async",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.Caching.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.Caching.Interfaces",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.Caching.Memory 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.Caching.Memory",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.ConfigurationModel 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.ConfigurationModel",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.ConfigurationModel.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.ConfigurationModel.Interfaces",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.DependencyInjection 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.DependencyInjection",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.DependencyInjection.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.DependencyInjection.Interfaces",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.Logging 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.Logging",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.Logging.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.Logging.Interfaces",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Framework.OptionsModel 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.Framework.OptionsModel",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Remotion.Linq 2.0.0-alpha-002' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
+      "libraryId": "Remotion.Linq",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

@@ -12,7 +12,7 @@ namespace WebApi.Controllers
         private readonly TcmbService _tcmbService = new TcmbService();
 
         [HttpGet("{kod}")]
-        public async Task<ActionResult<Currency>> Get(string kod)
+        public async Task<ActionResult<Currency>> GetByCode(string kod)
         {
             var currency = await _tcmbService.GetCurrencyAsync(kod.ToUpper());
 
@@ -21,15 +21,18 @@ namespace WebApi.Controllers
 
             return Ok(currency);
         }
-        
 
-        
+
+
         [HttpGet]
         public async Task<ActionResult<List<Currency>>> GetAll()
         {
-        var result = await _tcmbService.GetAllCurrenciesAsync();
-        return Ok(result);
+            var result = await _tcmbService.GetAllCurrenciesAsync();
+            return Ok(result);
         }
+
+
+        
 
     }
 }

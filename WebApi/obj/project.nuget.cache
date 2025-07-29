@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UV8dERWrFOQ=",
+  "dgSpecHash": "fnW7pExKze8=",
   "success": true,
   "projectFilePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -73,15 +73,18 @@
     "C:\\Users\\zehra\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\zehra\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.6\\microsoft.netcore.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.6\\microsoft.netcore.app.runtime.win-x64.9.0.6.nupkg.sha512",
     "C:\\Users\\zehra\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.6\\microsoft.windowsdesktop.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.6.nupkg.sha512",
     "C:\\Users\\zehra\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.6\\microsoft.aspnetcore.app.ref.9.0.6.nupkg.sha512",
+    "C:\\Users\\zehra\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.6\\microsoft.aspnetcore.app.runtime.win-x64.9.0.6.nupkg.sha512",
     "C:\\Users\\zehra\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.6\\microsoft.netcore.app.host.win-x64.9.0.6.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.Commands 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.Commands 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -93,7 +96,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.Core 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.Core 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -105,7 +108,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.Relational 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.Relational 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -117,7 +120,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.Relational.Design 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.Relational.Design 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -129,7 +132,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.SqlServer 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.SqlServer 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -141,7 +144,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'EntityFramework.SqlServer.Design 7.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'EntityFramework.SqlServer.Design 7.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -153,7 +156,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Ix-Async 1.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Ix-Async 1.2.3' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -165,7 +168,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.Caching.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.Caching.Interfaces 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -177,7 +180,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.Caching.Memory 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.Caching.Memory 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -189,7 +192,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.ConfigurationModel 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.ConfigurationModel 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -201,7 +204,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.ConfigurationModel.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.ConfigurationModel.Interfaces 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -213,7 +216,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.DependencyInjection 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.DependencyInjection 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -225,7 +228,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.DependencyInjection.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.DependencyInjection.Interfaces 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -237,7 +240,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.Logging 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.Logging 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -249,7 +252,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.Logging.Interfaces 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.Logging.Interfaces 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -261,7 +264,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Microsoft.Framework.OptionsModel 1.0.0-beta4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Microsoft.Framework.OptionsModel 1.0.0-beta4' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
@@ -273,7 +276,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'Remotion.Linq 2.0.0-alpha-002' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "message": "'Remotion.Linq 2.0.0-alpha-002' paketi, proje hedef çerçevesi 'net9.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "projectPath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\zehra\\Desktop\\anlıkkur\\WebApi\\WebApi.csproj",

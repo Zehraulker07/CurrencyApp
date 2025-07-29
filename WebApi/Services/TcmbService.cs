@@ -45,6 +45,27 @@ namespace WebApi.Services
         XmlNodeList currencyNodes = xmlDoc.SelectNodes("//Currency");
         List<Currency> currencies = new List<Currency>();
 
+        //aşağısı konsola çıktıyı verebilmek için
+            Console.WriteLine($"*****Veri çekildi: {DateTime.Now}");
+            if (DateTime.Now.Hour == 15 && DateTime.Now.Minute == 30)
+            {
+                Console.WriteLine($"!!!!!Güncellendi");
+            }
+            var tcmbService = new TcmbService();
+            Currency usd = await tcmbService.GetCurrencyAsync("USD");
+            Currency eur = await tcmbService.GetCurrencyAsync("EUR");
+
+            if (usd != null)
+            {
+                Console.WriteLine($"USD Alış: {usd.ForexBuying}, Satış: {usd.ForexSelling}");
+            }
+
+            if (eur != null)
+            {
+                Console.WriteLine($"EUR Alış: {eur.ForexBuying}, Satış: {eur.ForexSelling}");
+            }
+
+
             foreach (XmlNode node in currencyNodes)
             {
                 try
@@ -67,7 +88,7 @@ namespace WebApi.Services
                     // Bazı döviz türlerinde eksik veri olabilir, onları atlıyoruz
                     continue;
                 }
-    }
+            }
       return currencies;
 }
 

@@ -9,30 +9,17 @@ namespace WebApi
     {
         static async Task Main(string[] args)
         {
-            // var tcmbService = new TcmbService();
-
-            // Currency usd = await tcmbService.GetCurrencyAsync("USD");
-            // Currency eur = await tcmbService.GetCurrencyAsync("EUR");
-
-            // if (usd != null)
-            // {
-            //     Console.WriteLine($"USD Alış: {usd.ForexBuying}, Satış: {usd.ForexSelling}");
-            // }
-
-            // if (eur != null)
-            // {
-            //     Console.WriteLine($"EUR Alış: {eur.ForexBuying}, Satış: {eur.ForexSelling}");
-            // }
-
             var tcmbService = new TcmbService();
             var currencies = await tcmbService.GetAllCurrenciesAsync();
+            //var currency = await tcmbService.GetCurrencyAsync("usd");
             Console.WriteLine($"Currency list length: {currencies.Count}");
-
-
+            //Console.WriteLine($"USD:{currency}");
 
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
-
+            builder.Services.AddSingleton<TcmbService>();
+            builder.Services.AddHostedService<CurrencyBackgroundService>();
+            
             var app = builder.Build();
             app.MapControllers(); // controllerları aktive eder
 
